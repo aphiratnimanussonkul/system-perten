@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kuponger>
+    <tipping frist="2022-07-30-15-55" omgang="0" type="fulltid">
+        <kamp>
+            <nr>1</nr>
+            <hjemmelag>
+                <![CDATA[Jerv]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Vålerenga]]>
+            </bortelag>
+            <dato>2022-07-30-20-00</dato>
+            <tips ExpertHomeTip="22" ExpertDrawTip="24" ExpertAwayTip="54" PeopleHomeTip="34" PeopleDrawTip="19" PeopleAwayTip="47" />
+        </kamp>
+        <kamp>
+            <nr>2</nr>
+            <hjemmelag>
+                <![CDATA[Aalesund]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Bodø/Glimt]]>
+            </bortelag>
+            <dato>2022-07-30-16-00</dato>
+            <tips ExpertHomeTip="19" ExpertDrawTip="22" ExpertAwayTip="59" PeopleHomeTip="29" PeopleDrawTip="23" PeopleAwayTip="48" />
+        </kamp>
+        <kamp>
+            <nr>3</nr>
+            <hjemmelag>
+                <![CDATA[HamKam]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Kristiansund]]>
+            </bortelag>
+            <dato>2022-07-30-18-00</dato>
+            <tips ExpertHomeTip="67" ExpertDrawTip="18" ExpertAwayTip="15" PeopleHomeTip="58" PeopleDrawTip="21" PeopleAwayTip="21" />
+        </kamp>
+        <kamp>
+            <nr>4</nr>
+            <hjemmelag>
+                <![CDATA[Odd]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Rosenborg]]>
+            </bortelag>
+            <dato>2022-07-30-18-00</dato>
+            <tips ExpertHomeTip="31" ExpertDrawTip="29" ExpertAwayTip="40" PeopleHomeTip="33" PeopleDrawTip="26" PeopleAwayTip="41" />
+        </kamp>
+        <kamp>
+            <nr>5</nr>
+            <hjemmelag>
+                <![CDATA[Tromsø]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Sandefjord]]>
+            </bortelag>
+            <dato>2022-07-30-18-00</dato>
+            <tips ExpertHomeTip="63" ExpertDrawTip="20" ExpertAwayTip="17" PeopleHomeTip="53" PeopleDrawTip="23" PeopleAwayTip="24" />
+        </kamp>
+        <kamp>
+            <nr>6</nr>
+            <hjemmelag>
+                <![CDATA[Liverpool]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Manchester City]]>
+            </bortelag>
+            <dato>2022-07-30-18-00</dato>
+            <tips ExpertHomeTip="35" ExpertDrawTip="30" ExpertAwayTip="35" PeopleHomeTip="39" PeopleDrawTip="27" PeopleAwayTip="34" />
+        </kamp>
+        <kamp>
+            <nr>7</nr>
+            <hjemmelag>
+                <![CDATA[Blackburn]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Queens PR]]>
+            </bortelag>
+            <dato>2022-07-30-16-00</dato>
+            <tips ExpertHomeTip="51" ExpertDrawTip="25" ExpertAwayTip="24" PeopleHomeTip="53" PeopleDrawTip="22" PeopleAwayTip="25" />
+        </kamp>
+        <kamp>
+            <nr>8</nr>
+            <hjemmelag>
+                <![CDATA[Cardiff]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Norwich]]>
+            </bortelag>
+            <dato>2022-07-30-16-00</dato>
+            <tips ExpertHomeTip="26" ExpertDrawTip="27" ExpertAwayTip="47" PeopleHomeTip="35" PeopleDrawTip="28" PeopleAwayTip="37" />
+        </kamp>
+        <kamp>
+            <nr>9</nr>
+            <hjemmelag>
+                <![CDATA[Hull]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Bristol City]]>
+            </bortelag>
+            <dato>2022-07-30-16-00</dato>
+            <tips ExpertHomeTip="47" ExpertDrawTip="27" ExpertAwayTip="26" PeopleHomeTip="50" PeopleDrawTip="24" PeopleAwayTip="26" />
+        </kamp>
+        <kamp>
+            <nr>10</nr>
+            <hjemmelag>
+                <![CDATA[Luton]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Birmingham]]>
+            </bortelag>
+            <dato>2022-07-30-16-00</dato>
+            <tips ExpertHomeTip="52" ExpertDrawTip="25" ExpertAwayTip="23" PeopleHomeTip="53" PeopleDrawTip="22" PeopleAwayTip="25" />
+        </kamp>
+        <kamp>
+            <nr>11</nr>
+            <hjemmelag>
+                <![CDATA[Millwall]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Stoke]]>
+            </bortelag>
+            <dato>2022-07-30-16-00</dato>
+            <tips ExpertHomeTip="40" ExpertDrawTip="29" ExpertAwayTip="31" PeopleHomeTip="42" PeopleDrawTip="30" PeopleAwayTip="28" />
+        </kamp>
+        <kamp>
+            <nr>12</nr>
+            <hjemmelag>
+                <![CDATA[Middlesbrough]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[West Bromwich]]>
+            </bortelag>
+            <dato>2022-07-30-18-30</dato>
+            <tips ExpertHomeTip="40" ExpertDrawTip="29" ExpertAwayTip="31" PeopleHomeTip="45" PeopleDrawTip="27" PeopleAwayTip="28" />
+        </kamp>
+    </tipping>
+    <tipping frist="2022-07-30-15-55" omgang="1" type="pause">
+        <kamp>
+            <nr>1</nr>
+            <hjemmelag>
+                <![CDATA[Jerv]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Vålerenga]]>
+            </bortelag>
+            <dato>2022-07-30-20-00</dato>
+            <tips ExpertHomeTip="25" ExpertDrawTip="31" ExpertAwayTip="44" PeopleHomeTip="37" PeopleDrawTip="29" PeopleAwayTip="34" />
+        </kamp>
+        <kamp>
+            <nr>2</nr>
+            <hjemmelag>
+                <![CDATA[Aalesund]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Bodø/Glimt]]>
+            </bortelag>
+            <dato>2022-07-30-16-00</dato>
+            <tips ExpertHomeTip="23" ExpertDrawTip="29" ExpertAwayTip="48" PeopleHomeTip="32" PeopleDrawTip="35" PeopleAwayTip="33" />
+        </kamp>
+        <kamp>
+            <nr>3</nr>
+            <hjemmelag>
+                <![CDATA[HamKam]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Kristiansund]]>
+            </bortelag>
+            <dato>2022-07-30-18-00</dato>
+            <tips ExpertHomeTip="57" ExpertDrawTip="23" ExpertAwayTip="20" PeopleHomeTip="49" PeopleDrawTip="31" PeopleAwayTip="20" />
+        </kamp>
+        <kamp>
+            <nr>4</nr>
+            <hjemmelag>
+                <![CDATA[Odd]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Rosenborg]]>
+            </bortelag>
+            <dato>2022-07-30-18-00</dato>
+            <tips ExpertHomeTip="31" ExpertDrawTip="37" ExpertAwayTip="32" PeopleHomeTip="32" PeopleDrawTip="38" PeopleAwayTip="30" />
+        </kamp>
+        <kamp>
+            <nr>5</nr>
+            <hjemmelag>
+                <![CDATA[Tromsø]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Sandefjord]]>
+            </bortelag>
+            <dato>2022-07-30-18-00</dato>
+            <tips ExpertHomeTip="52" ExpertDrawTip="27" ExpertAwayTip="21" PeopleHomeTip="42" PeopleDrawTip="34" PeopleAwayTip="24" />
+        </kamp>
+        <kamp>
+            <nr>6</nr>
+            <hjemmelag>
+                <![CDATA[Liverpool]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Manchester City]]>
+            </bortelag>
+            <dato>2022-07-30-18-00</dato>
+            <tips ExpertHomeTip="30" ExpertDrawTip="40" ExpertAwayTip="30" PeopleHomeTip="36" PeopleDrawTip="34" PeopleAwayTip="30" />
+        </kamp>
+        <kamp>
+            <nr>7</nr>
+            <hjemmelag>
+                <![CDATA[Blackburn]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Queens PR]]>
+            </bortelag>
+            <dato>2022-07-30-16-00</dato>
+            <tips ExpertHomeTip="40" ExpertDrawTip="32" ExpertAwayTip="28" PeopleHomeTip="43" PeopleDrawTip="33" PeopleAwayTip="24" />
+        </kamp>
+        <kamp>
+            <nr>8</nr>
+            <hjemmelag>
+                <![CDATA[Cardiff]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Norwich]]>
+            </bortelag>
+            <dato>2022-07-30-16-00</dato>
+            <tips ExpertHomeTip="30" ExpertDrawTip="34" ExpertAwayTip="36" PeopleHomeTip="35" PeopleDrawTip="37" PeopleAwayTip="28" />
+        </kamp>
+        <kamp>
+            <nr>9</nr>
+            <hjemmelag>
+                <![CDATA[Hull]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Bristol City]]>
+            </bortelag>
+            <dato>2022-07-30-16-00</dato>
+            <tips ExpertHomeTip="36" ExpertDrawTip="34" ExpertAwayTip="30" PeopleHomeTip="41" PeopleDrawTip="35" PeopleAwayTip="24" />
+        </kamp>
+        <kamp>
+            <nr>10</nr>
+            <hjemmelag>
+                <![CDATA[Luton]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Birmingham]]>
+            </bortelag>
+            <dato>2022-07-30-16-00</dato>
+            <tips ExpertHomeTip="42" ExpertDrawTip="32" ExpertAwayTip="26" PeopleHomeTip="41" PeopleDrawTip="33" PeopleAwayTip="26" />
+        </kamp>
+        <kamp>
+            <nr>11</nr>
+            <hjemmelag>
+                <![CDATA[Millwall]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Stoke]]>
+            </bortelag>
+            <dato>2022-07-30-16-00</dato>
+            <tips ExpertHomeTip="32" ExpertDrawTip="37" ExpertAwayTip="31" PeopleHomeTip="36" PeopleDrawTip="39" PeopleAwayTip="25" />
+        </kamp>
+        <kamp>
+            <nr>12</nr>
+            <hjemmelag>
+                <![CDATA[Middlesbrough]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[West Bromwich]]>
+            </bortelag>
+            <dato>2022-07-30-18-30</dato>
+            <tips ExpertHomeTip="32" ExpertDrawTip="37" ExpertAwayTip="31" PeopleHomeTip="38" PeopleDrawTip="36" PeopleAwayTip="26" />
+        </kamp>
+    </tipping>
+    <tipping frist="2022-07-31-14-55" omgang="2" type="fulltid">
+        <kamp>
+            <nr>1</nr>
+            <hjemmelag>
+                <![CDATA[Molde]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Strømsgodset]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="77" ExpertDrawTip="14" ExpertAwayTip="9" PeopleHomeTip="69" PeopleDrawTip="17" PeopleAwayTip="14" />
+        </kamp>
+        <kamp>
+            <nr>2</nr>
+            <hjemmelag>
+                <![CDATA[Sarpsborg 08]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Lillestrøm]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="31" ExpertDrawTip="29" ExpertAwayTip="40" PeopleHomeTip="32" PeopleDrawTip="28" PeopleAwayTip="40" />
+        </kamp>
+        <kamp>
+            <nr>3</nr>
+            <hjemmelag>
+                <![CDATA[Bryne FK]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Brann]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="8" ExpertDrawTip="12" ExpertAwayTip="80" PeopleHomeTip="22" PeopleDrawTip="16" PeopleAwayTip="62" />
+        </kamp>
+        <kamp>
+            <nr>4</nr>
+            <hjemmelag>
+                <![CDATA[Grorud IL]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[KFUM Oslo]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="27" ExpertDrawTip="28" ExpertAwayTip="45" PeopleHomeTip="29" PeopleDrawTip="26" PeopleAwayTip="45" />
+        </kamp>
+        <kamp>
+            <nr>5</nr>
+            <hjemmelag>
+                <![CDATA[Kongsvinger]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Mjøndalen]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="42" ExpertDrawTip="29" ExpertAwayTip="29" PeopleHomeTip="40" PeopleDrawTip="29" PeopleAwayTip="31" />
+        </kamp>
+        <kamp>
+            <nr>6</nr>
+            <hjemmelag>
+                <![CDATA[Ranheim]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Stjørdals-Blink]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="80" ExpertDrawTip="12" ExpertAwayTip="8" PeopleHomeTip="71" PeopleDrawTip="14" PeopleAwayTip="15" />
+        </kamp>
+        <kamp>
+            <nr>7</nr>
+            <hjemmelag>
+                <![CDATA[Raufoss]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Sandnes Ulf]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="48" ExpertDrawTip="26" ExpertAwayTip="26" PeopleHomeTip="42" PeopleDrawTip="26" PeopleAwayTip="32" />
+        </kamp>
+        <kamp>
+            <nr>8</nr>
+            <hjemmelag>
+                <![CDATA[Stabæk]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Skeid]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="80" ExpertDrawTip="12" ExpertAwayTip="8" PeopleHomeTip="65" PeopleDrawTip="18" PeopleAwayTip="17" />
+        </kamp>
+        <kamp>
+            <nr>9</nr>
+            <hjemmelag>
+                <![CDATA[Start]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Fredrikstad]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="48" ExpertDrawTip="26" ExpertAwayTip="26" PeopleHomeTip="51" PeopleDrawTip="26" PeopleAwayTip="23" />
+        </kamp>
+        <kamp>
+            <nr>10</nr>
+            <hjemmelag>
+                <![CDATA[Åsane]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Sogndal]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="26" ExpertDrawTip="27" ExpertAwayTip="47" PeopleHomeTip="28" PeopleDrawTip="23" PeopleAwayTip="49" />
+        </kamp>
+        <kamp>
+            <nr>11</nr>
+            <hjemmelag>
+                <![CDATA[Bærum]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Asker]]>
+            </bortelag>
+            <dato>2022-07-31-15-00</dato>
+            <tips ExpertHomeTip="44" ExpertDrawTip="28" ExpertAwayTip="28" PeopleHomeTip="45" PeopleDrawTip="29" PeopleAwayTip="26" />
+        </kamp>
+        <kamp>
+            <nr>12</nr>
+            <hjemmelag>
+                <![CDATA[Elfsborg]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Häcken]]>
+            </bortelag>
+            <dato>2022-07-31-15-00</dato>
+            <tips ExpertHomeTip="35" ExpertDrawTip="30" ExpertAwayTip="35" PeopleHomeTip="37" PeopleDrawTip="29" PeopleAwayTip="34" />
+        </kamp>
+    </tipping>
+    <tipping frist="2022-07-31-14-55" omgang="3" type="pause">
+        <kamp>
+            <nr>1</nr>
+            <hjemmelag>
+                <![CDATA[Molde]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Strømsgodset]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="66" ExpertDrawTip="20" ExpertAwayTip="14" PeopleHomeTip="55" PeopleDrawTip="27" PeopleAwayTip="18" />
+        </kamp>
+        <kamp>
+            <nr>2</nr>
+            <hjemmelag>
+                <![CDATA[Sarpsborg 08]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Lillestrøm]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="31" ExpertDrawTip="37" ExpertAwayTip="32" PeopleHomeTip="33" PeopleDrawTip="37" PeopleAwayTip="30" />
+        </kamp>
+        <kamp>
+            <nr>3</nr>
+            <hjemmelag>
+                <![CDATA[Bryne FK]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Brann]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="13" ExpertDrawTip="18" ExpertAwayTip="69" PeopleHomeTip="30" PeopleDrawTip="30" PeopleAwayTip="40" />
+        </kamp>
+        <kamp>
+            <nr>4</nr>
+            <hjemmelag>
+                <![CDATA[Grorud IL]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[KFUM Oslo]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="30" ExpertDrawTip="35" ExpertAwayTip="35" PeopleHomeTip="31" PeopleDrawTip="35" PeopleAwayTip="34" />
+        </kamp>
+        <kamp>
+            <nr>5</nr>
+            <hjemmelag>
+                <![CDATA[Kongsvinger]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Mjøndalen]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="33" ExpertDrawTip="36" ExpertAwayTip="31" PeopleHomeTip="35" PeopleDrawTip="39" PeopleAwayTip="26" />
+        </kamp>
+        <kamp>
+            <nr>6</nr>
+            <hjemmelag>
+                <![CDATA[Ranheim]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Stjørdals-Blink]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="69" ExpertDrawTip="18" ExpertAwayTip="13" PeopleHomeTip="53" PeopleDrawTip="28" PeopleAwayTip="19" />
+        </kamp>
+        <kamp>
+            <nr>7</nr>
+            <hjemmelag>
+                <![CDATA[Raufoss]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Sandnes Ulf]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="38" ExpertDrawTip="33" ExpertAwayTip="29" PeopleHomeTip="37" PeopleDrawTip="36" PeopleAwayTip="27" />
+        </kamp>
+        <kamp>
+            <nr>8</nr>
+            <hjemmelag>
+                <![CDATA[Stabæk]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Skeid]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="69" ExpertDrawTip="18" ExpertAwayTip="13" PeopleHomeTip="47" PeopleDrawTip="30" PeopleAwayTip="23" />
+        </kamp>
+        <kamp>
+            <nr>9</nr>
+            <hjemmelag>
+                <![CDATA[Start]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Fredrikstad]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="38" ExpertDrawTip="33" ExpertAwayTip="29" PeopleHomeTip="44" PeopleDrawTip="34" PeopleAwayTip="22" />
+        </kamp>
+        <kamp>
+            <nr>10</nr>
+            <hjemmelag>
+                <![CDATA[Åsane]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Sogndal]]>
+            </bortelag>
+            <dato>2022-07-31-15-30</dato>
+            <tips ExpertHomeTip="30" ExpertDrawTip="34" ExpertAwayTip="36" PeopleHomeTip="30" PeopleDrawTip="34" PeopleAwayTip="36" />
+        </kamp>
+        <kamp>
+            <nr>11</nr>
+            <hjemmelag>
+                <![CDATA[Bærum]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Asker]]>
+            </bortelag>
+            <dato>2022-07-31-15-00</dato>
+            <tips ExpertHomeTip="34" ExpertDrawTip="35" ExpertAwayTip="31" PeopleHomeTip="38" PeopleDrawTip="39" PeopleAwayTip="23" />
+        </kamp>
+        <kamp>
+            <nr>12</nr>
+            <hjemmelag>
+                <![CDATA[Elfsborg]]>
+            </hjemmelag>
+            <bortelag>
+                <![CDATA[Häcken]]>
+            </bortelag>
+            <dato>2022-07-31-15-00</dato>
+            <tips ExpertHomeTip="30" ExpertDrawTip="40" ExpertAwayTip="30" PeopleHomeTip="37" PeopleDrawTip="38" PeopleAwayTip="25" />
+        </kamp>
+    </tipping>
+</kuponger>
