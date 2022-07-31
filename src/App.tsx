@@ -8,6 +8,7 @@ function App() {
   const [betSelected, setBetSelected] = useState<boolean[][]>([]);
   const [tipping, setTipping] = useState<ITipping[]>([]);
   const [betNumber, setBetNumber] = useState(0);
+  const [systemPrice, setSystemPrice] = useState(0);
 
   useEffect(() => {
     getTippings().then((data) => {
@@ -35,11 +36,24 @@ function App() {
         const count = row.filter((check) => check).length;
         rowBet[count - 1]++;
       }
-      console.log(rowBet);
       setBetNumber(
         Math.pow(1, rowBet[0]) * Math.pow(2, rowBet[1]) * Math.pow(3, rowBet[2])
       );
-    } else setBetNumber(0);
+      calculateSystemPrice(rowBet[1]);
+    } else {
+      setBetNumber(0);
+      setSystemPrice(0);
+    }
+  };
+
+  const calculateSystemPrice = (rowCountCheckTwoBox: number) => {
+    if (rowCountCheckTwoBox <= 2) setSystemPrice(Math.pow(2, 0));
+    else if (rowCountCheckTwoBox <= 5) setSystemPrice(Math.pow(2, 1));
+    else if (rowCountCheckTwoBox === 6) setSystemPrice(Math.pow(2, 2));
+    else if (rowCountCheckTwoBox <= 9) setSystemPrice(Math.pow(2, 4));
+    else if (rowCountCheckTwoBox === 10) setSystemPrice(Math.pow(2, 5));
+    else if (rowCountCheckTwoBox === 11) setSystemPrice(Math.pow(2, 6));
+    else if (rowCountCheckTwoBox === 12) setSystemPrice(Math.pow(2, 7));
   };
 
   const buildRowData = ({ data, index }: { data: ITipping; index: number }) => {
@@ -107,6 +121,8 @@ function App() {
           {tipping.map((data, index) => buildRowData({ data, index }))}
         </tbody>
       </table>
+      <p className="py-2">System Price</p>
+      <input className="text-center border rounded" value={systemPrice} />
     </div>
   );
 }
