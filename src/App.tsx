@@ -31,15 +31,13 @@ function App() {
 
   const calculateBet = () => {
     if (betSelected.every((el) => el.some((check) => check))) {
-      let rowBet = [0, 0, 0];
-      for (const row of betSelected) {
+      let sum = 1;
+      betSelected.forEach((row) => {
         const count = row.filter((check) => check).length;
-        rowBet[count - 1]++;
-      }
-      setBetNumber(
-        Math.pow(1, rowBet[0]) * Math.pow(2, rowBet[1]) * Math.pow(3, rowBet[2])
-      );
-      calculateSystemPrice(rowBet[1]);
+        sum *= count;
+      });
+      setBetNumber(sum);
+      // calculateSystemPrice(rowBet[1]);
     } else {
       setBetNumber(0);
       setSystemPrice(0);
@@ -68,7 +66,7 @@ function App() {
       );
     };
     return (
-      <tr className="border">
+      <tr className="text-center border">
         <td className="border">{data.nr}</td>
         <td className="border">{data.hjemmelag}</td>
         <td className="border">{data.bortelag}</td>
@@ -85,44 +83,62 @@ function App() {
     );
   };
   return (
-    <div className="">
-      <table className="table-auto">
-        <thead className="border">
-          <tr className="border">
-            <th className="border">R</th>
-            <th className="border">Antall Rekker</th>
-            <th className="border">{betNumber}</th>
-            <th colSpan={3} className="border">
-              Folket %
-            </th>
-            <th colSpan={3} className="border">
-              Ekspert %
-            </th>
-            <th colSpan={3} className="border">
-              Stamme
-            </th>
-          </tr>
-          <tr className="border">
-            <th className="border">K</th>
-            <th className="border">Hjemmelag</th>
-            <th className="border">Bortelag</th>
-            <th className="border">H</th>
-            <th className="border">U</th>
-            <th className="border">B</th>
-            <th className="border">H</th>
-            <th className="border">U</th>
-            <th className="border">B</th>
-            <th className="border">H</th>
-            <th className="border">U</th>
-            <th className="border">B</th>
-          </tr>
-        </thead>
-        <tbody>
-          {tipping.map((data, index) => buildRowData({ data, index }))}
-        </tbody>
-      </table>
-      <p className="py-2">System Price</p>
-      <input className="text-center border rounded" value={systemPrice} />
+    <div className="flex items-center justify-center w-full h-screen">
+      <div className="w-2/3 p-4 border rounded shadow-lg">
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-xl font-bold">Tipping Lørdag</h1>
+            <p>Spillstopp: 06.08.2022 - kl.15.55</p>
+          </div>
+          <img src="/assets/logo.png" className="h-10" />
+          <div className="flex items-center">
+            <img src="/assets/logo_sort.png" className="h-10" />
+            <img src="/assets/norsktipping.png" />
+          </div>
+        </div>
+        <table className="w-full mt-4 table-auto">
+          <thead className="text-white border bg-cyan-700">
+            <tr className="border">
+              <th className="border">R</th>
+              <th className="border">Antall Rekker</th>
+              <th className="border">{betNumber}</th>
+              <th colSpan={3} className="border">
+                Folket %
+              </th>
+              <th colSpan={3} className="border">
+                Ekspert %
+              </th>
+              <th colSpan={3} className="border">
+                Stamme
+              </th>
+            </tr>
+            <tr className="border">
+              <th className="border">K</th>
+              <th className="border">Hjemmelag</th>
+              <th className="border">Bortelag</th>
+              <th className="border">H</th>
+              <th className="border">U</th>
+              <th className="border">B</th>
+              <th className="border">H</th>
+              <th className="border">U</th>
+              <th className="border">B</th>
+              <th className="border">H</th>
+              <th className="border">U</th>
+              <th className="border">B</th>
+            </tr>
+          </thead>
+          <tbody>
+            {tipping.map((data, index) => buildRowData({ data, index }))}
+          </tbody>
+        </table>
+        <div className="grid grid-cols-12">
+          <div className="col-span-7"></div>
+          <div className="col-span-3">
+            <p className="py-2 text-sm font-bold">System Price</p>
+            <input className="text-center border rounded" value={systemPrice} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
