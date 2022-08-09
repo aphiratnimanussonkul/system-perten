@@ -44,6 +44,21 @@ function App() {
     }
   };
 
+  const calculateAveragePrice = (
+    tippingPath:
+      | "expertHomeTip"
+      | "expertDrawTip"
+      | "expertAwayTip"
+      | "peopleHomeTip"
+      | "peopleDrawTip"
+      | "peopleAwayTip"
+  ) => {
+    return Math.round(
+      tipping.reduce((prev, curr) => curr.tips[tippingPath] + prev, 0) /
+        tipping.length
+    );
+  };
+
   const calculateSystemPrice = (rowCountCheckTwoBox: number) => {
     if (rowCountCheckTwoBox <= 2) setSystemPrice(Math.pow(2, 0));
     else if (rowCountCheckTwoBox <= 5) setSystemPrice(Math.pow(2, 1));
@@ -129,6 +144,29 @@ function App() {
           </thead>
           <tbody>
             {tipping.map((data, index) => buildRowData({ data, index }))}
+            <tr className="text-center border">
+              <td colSpan={3} className="border">
+                Average (%)
+              </td>
+              <td className="border">
+                {calculateAveragePrice("peopleHomeTip")}
+              </td>
+              <td className="border">
+                {calculateAveragePrice("peopleDrawTip")}
+              </td>
+              <td className="border">
+                {calculateAveragePrice("peopleAwayTip")}
+              </td>
+              <td className="border">
+                {calculateAveragePrice("expertHomeTip")}
+              </td>
+              <td className="border">
+                {calculateAveragePrice("expertDrawTip")}
+              </td>
+              <td className="border">
+                {calculateAveragePrice("expertAwayTip")}
+              </td>
+            </tr>
           </tbody>
         </table>
         <div className="grid grid-cols-12">
